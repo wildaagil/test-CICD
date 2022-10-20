@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="Create Account" skipped="0" tests="4" time="1.65" timestamp="2022-10-20 03:01:06"><testcase name="Create account with valid username and password"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+net.serenitybdd.rest.SerenityRest.lastResponse(SerenityRest.java:67)&#13;
+net.serenitybdd.rest.SerenityRest.then(SerenityRest.java:62)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.Account.GetAccount.validateStatus200(GetAccount.java:94)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.stepdefinitions.Projects.AccountSteps.iWillGet200(AccountSteps.java:26)&#13;
+✽.I will get 200(file:///D:/API-TEST/serenity-rest/src/test/resources/features.Projects/Account.feature:9)&#13;
+</system-err></testcase><testcase name="Create account with invalid username and valid password"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+net.serenitybdd.rest.SerenityRest.lastResponse(SerenityRest.java:67)&#13;
+net.serenitybdd.rest.SerenityRest.then(SerenityRest.java:62)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.Account.GetAccount.validateStatusCode(GetAccount.java:90)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.stepdefinitions.Projects.AccountSteps.iWillGet400(AccountSteps.java:31)&#13;
+✽.I will get 400(file:///D:/API-TEST/serenity-rest/src/test/resources/features.Projects/Account.feature:15)&#13;
+</system-err></testcase><testcase name="Create account with valid username and invalid password"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+net.serenitybdd.rest.SerenityRest.lastResponse(SerenityRest.java:67)&#13;
+net.serenitybdd.rest.SerenityRest.then(SerenityRest.java:62)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.Account.GetAccount.validateStatusCode(GetAccount.java:90)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.stepdefinitions.Projects.AccountSteps.iWillGet400(AccountSteps.java:31)&#13;
+✽.I will get 400(file:///D:/API-TEST/serenity-rest/src/test/resources/features.Projects/Account.feature:21)&#13;
+</system-err></testcase><testcase name="Create account with invalid username and invalid password"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+net.serenitybdd.rest.SerenityRest.lastResponse(SerenityRest.java:67)&#13;
+net.serenitybdd.rest.SerenityRest.then(SerenityRest.java:62)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.Account.GetAccount.validateStatusCode(GetAccount.java:90)&#13;
+serenity.rest@1.0-SNAPSHOT/starter.stepdefinitions.Projects.AccountSteps.iWillGet400(AccountSteps.java:31)&#13;
+✽.I will get 400(file:///D:/API-TEST/serenity-rest/src/test/resources/features.Projects/Account.feature:27)&#13;
+</system-err></testcase></testsuite>

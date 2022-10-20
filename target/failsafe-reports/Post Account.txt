@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Post Account
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.758 s <<< FAILURE! - in Post Account
+Post Account.Create project with valid name  Time elapsed: 1.758 s  <<< ERROR!
+java.lang.NullPointerException
+

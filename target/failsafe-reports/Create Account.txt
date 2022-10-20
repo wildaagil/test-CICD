@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Create Account
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 2.166 s <<< FAILURE! - in Create Account
+Create Account.Create account with valid username and password  Time elapsed: 1.883 s  <<< ERROR!
+java.lang.NullPointerException
+
+Create Account.Create account with invalid username and valid password  Time elapsed: 0.096 s  <<< ERROR!
+java.lang.NullPointerException
+
+Create Account.Create account with valid username and invalid password  Time elapsed: 0.086 s  <<< ERROR!
+java.lang.NullPointerException
+
+Create Account.Create account with invalid username and invalid password  Time elapsed: 0.072 s  <<< ERROR!
+java.lang.NullPointerException
+

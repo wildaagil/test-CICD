@@ -1,0 +1,5 @@
+starter\stepdefinitions\Projects\AccountSteps.class
+starter\CucumberTestSuite.class
+starter\Account\PostAccount.class
+starter\stepdefinitions\Projects\PostAccountSteps.class
+starter\Account\GetAccount.class
